@@ -1,1 +1,1 @@
-# MocoAppApi
+# Moco SDK

@@ -1,0 +1,23 @@
+{
+    "name": "sfue/moco-sdk",
+    "type": "symfony-bundle",
+    "description": "SDK for the MocoApp API",
+    "keywords": ["sdk", "moco", "mocoapp"],
+    "homepage": "https://github.com/Sfue/MocoSdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephan Fühner",
+            "email": "stephan.fuehner@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+    "autoload": {
+        "psr-4": {
+            "Sfue\\Moco\\": "src/MocoSdk"
+        }
+    }
+}
